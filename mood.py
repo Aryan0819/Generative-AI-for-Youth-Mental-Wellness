@@ -63,3 +63,4 @@ if st.button("Reflect with AI"):
                 st.write("No image available for this mood.")
         except requests.exceptions.RequestException as e:
             st.error(f"API call failed: Is the backend server running? Error: {e}")
+
